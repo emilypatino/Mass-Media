@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Chettan');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+
+body{
+ background-size:50%;
+ background-repeat:no-repeat;
+}
+.starter{ 
+width:100%;
+margin-top:-20px;
+}
+img{
+ width:80px;
+}
+.telegraph2 , .telephone2{
+    height:80px;
+}
+.televsion ,.games, .personal{
+ height:84px;   
+}
+.intro{
+    width:100%;
+}
+
+.apps{
+ width:600px;
+ position:absolute;
+text-align:center;
+margin-top:20%;
+z-index: 15;
+  top: 50%;
+  left: 50%;
+  margin: -100px 0 0 -250px;
+}
+.after{
+ width:100%;
+ height:1000px;
+}
+.results{
+position:absolute;
+ color:DodgerBlue ;  
+ margin-top:100px;
+ right:3%;
+ font-size:24px;
+ font-family: 'Indie Flower', cursive;
+
+}
+.recording{
+    position:relative;
+    color:DodgerBlue ;  
+ margin-top:100px;
+ left:3%;
+ font-size:24px;
+ font-family: 'Indie Flower', cursive;
+}
+.timeline{
+position:absolute;
+ font-size:30px;
+ color:teal;
+ right:50%;
+ margin-top:-200px;
+}
+
+.warning{
+ width:100%;   
+}
+.warning2{
+    text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212, 0 22px 30px rgba(0,0,0,0.9), 6px 2px 2px rgba(164,0,0,0), 6px 2px 2px rgba(164,0,0,0); 
+    color:red;
+    font-size:50px;
+    margin-top:-300px;
+    font-family: 'Righteous', cursive;
+}
+.turn{
+ font-size:50px;
+ margin-top:-200px;
+ font-family: 'Righteous', cursive;
+color: #FFFFFF;
+background: #005DFF;
+text-shadow: -5px 5px 0px #00e6e6, -10px 10px 0px #01cccc, -15px 15px 0px #00bdbd;
+color: #FFFFFF;
+background: #005DFF;
+}
+.idk{
+ position:absolute;
+ color:Mediumpurple;
+ font-size:60px;
+ text-align:center;
+ right:20%;
+ margin-top:40%;
+ font-family: 'Baloo Chettan', cursive;
+
+}
+.flash {
+   animation-name: flash;
+    animation-duration: 0.2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+    font-size:40px;
+    text-align:center;
+}
+
+@keyframes flash {
+    from {color: red;}
+    to {color: black;}
+}
+.almostkilledme{
+    position:absolute;
+ width:60%; 
+ right:20%;
+}
